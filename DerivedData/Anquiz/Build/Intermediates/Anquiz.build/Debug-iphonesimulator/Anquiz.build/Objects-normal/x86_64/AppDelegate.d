@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/ramonhonorio/Documents/Centro\ iOS/XCode\ Projects/Anquiz/Anquiz/AppDelegate.m \
-  /Users/ramonhonorio/Documents/Centro\ iOS/XCode\ Projects/Anquiz/Anquiz/AppDelegate.h
+dependencies: /Users/ramonhonorio/Downloads/Anquiz/Anquiz/AppDelegate.m \
+  /Users/ramonhonorio/Downloads/Anquiz/Anquiz/AppDelegate.h

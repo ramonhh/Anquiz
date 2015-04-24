@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/ramonhonorio/Documents/Centro\ iOS/XCode\ Projects/Anquiz/Anquiz/SoundManager.m \
-  /Users/ramonhonorio/Documents/Centro\ iOS/XCode\ Projects/Anquiz/Anquiz/SoundManager.h
+dependencies: /Users/ramonhonorio/Downloads/Anquiz/Anquiz/SoundManager.m \
+  /Users/ramonhonorio/Downloads/Anquiz/Anquiz/SoundManager.h

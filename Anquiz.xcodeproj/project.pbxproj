@@ -36,6 +36,24 @@
 		18CA26431AEAC0500038EE24 /* som_farm_pato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263B1AEAC0500038EE24 /* som_farm_pato.mp3 */; };
 		18CA26441AEAC0500038EE24 /* som_farm_porco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263C1AEAC0500038EE24 /* som_farm_porco.mp3 */; };
 		18CA26451AEAC0500038EE24 /* som_farm_vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263D1AEAC0500038EE24 /* som_farm_vaca.mp3 */; };
+		18D10FCB1AEAD5D6005FF42A /* img_jungle_arara.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC11AEAD5D6005FF42A /* img_jungle_arara.png */; };
+		18D10FCC1AEAD5D6005FF42A /* img_jungle_elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC21AEAD5D6005FF42A /* img_jungle_elefante.png */; };
+		18D10FCD1AEAD5D6005FF42A /* img_jungle_gorila.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC31AEAD5D6005FF42A /* img_jungle_gorila.png */; };
+		18D10FCE1AEAD5D6005FF42A /* img_jungle_macaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC41AEAD5D6005FF42A /* img_jungle_macaco.png */; };
+		18D10FCF1AEAD5D6005FF42A /* img_jungle_onca.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC51AEAD5D6005FF42A /* img_jungle_onca.png */; };
+		18D10FD11AEAD5D6005FF42A /* img_jungle_panda.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC71AEAD5D6005FF42A /* img_jungle_panda.png */; };
+		18D10FD21AEAD5D6005FF42A /* img_jungle_pantera.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC81AEAD5D6005FF42A /* img_jungle_pantera.png */; };
+		18D10FD31AEAD5D6005FF42A /* img_jungle_tigre.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FC91AEAD5D6005FF42A /* img_jungle_tigre.png */; };
+		18D10FD41AEAD5D6005FF42A /* img_jungle_tucano.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FCA1AEAD5D6005FF42A /* img_jungle_tucano.png */; };
+		18D10FDF1AEAD8EF005FF42A /* som_jungle_arara.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FD61AEAD8EF005FF42A /* som_jungle_arara.mp3 */; };
+		18D10FE01AEAD8EF005FF42A /* som_jungle_elefante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FD71AEAD8EF005FF42A /* som_jungle_elefante.mp3 */; };
+		18D10FE11AEAD8EF005FF42A /* som_jungle_gorila.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FD81AEAD8EF005FF42A /* som_jungle_gorila.mp3 */; };
+		18D10FE21AEAD8EF005FF42A /* som_jungle_macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FD91AEAD8EF005FF42A /* som_jungle_macaco.mp3 */; };
+		18D10FE31AEAD8EF005FF42A /* som_jungle_onca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FDA1AEAD8EF005FF42A /* som_jungle_onca.mp3 */; };
+		18D10FE41AEAD8EF005FF42A /* som_jungle_panda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FDB1AEAD8EF005FF42A /* som_jungle_panda.mp3 */; };
+		18D10FE51AEAD8EF005FF42A /* som_jungle_pantera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FDC1AEAD8EF005FF42A /* som_jungle_pantera.mp3 */; };
+		18D10FE61AEAD8EF005FF42A /* som_jungle_tigre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FDD1AEAD8EF005FF42A /* som_jungle_tigre.mp3 */; };
+		18D10FE71AEAD8EF005FF42A /* som_jungle_tucano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D10FDE1AEAD8EF005FF42A /* som_jungle_tucano.mp3 */; };
 		35CF59591AEACC7C0044A8FB /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF59581AEACC7C0044A8FB /* MainMenuViewController.m */; };
 		35CF595E1AEACC890044A8FB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF595B1AEACC890044A8FB /* AboutViewController.m */; };
 		35CF595F1AEACC890044A8FB /* JungleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF595D1AEACC890044A8FB /* JungleViewController.m */; };
@@ -92,6 +110,24 @@
 		18CA263B1AEAC0500038EE24 /* som_farm_pato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_pato.mp3; sourceTree = "<group>"; };
 		18CA263C1AEAC0500038EE24 /* som_farm_porco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_porco.mp3; sourceTree = "<group>"; };
 		18CA263D1AEAC0500038EE24 /* som_farm_vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_vaca.mp3; sourceTree = "<group>"; };
+		18D10FC11AEAD5D6005FF42A /* img_jungle_arara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_arara.png; sourceTree = "<group>"; };
+		18D10FC21AEAD5D6005FF42A /* img_jungle_elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_elefante.png; sourceTree = "<group>"; };
+		18D10FC31AEAD5D6005FF42A /* img_jungle_gorila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_gorila.png; sourceTree = "<group>"; };
+		18D10FC41AEAD5D6005FF42A /* img_jungle_macaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_macaco.png; sourceTree = "<group>"; };
+		18D10FC51AEAD5D6005FF42A /* img_jungle_onca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_onca.png; sourceTree = "<group>"; };
+		18D10FC71AEAD5D6005FF42A /* img_jungle_panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_panda.png; sourceTree = "<group>"; };
+		18D10FC81AEAD5D6005FF42A /* img_jungle_pantera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_pantera.png; sourceTree = "<group>"; };
+		18D10FC91AEAD5D6005FF42A /* img_jungle_tigre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_tigre.png; sourceTree = "<group>"; };
+		18D10FCA1AEAD5D6005FF42A /* img_jungle_tucano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_jungle_tucano.png; sourceTree = "<group>"; };
+		18D10FD61AEAD8EF005FF42A /* som_jungle_arara.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_arara.mp3; sourceTree = "<group>"; };
+		18D10FD71AEAD8EF005FF42A /* som_jungle_elefante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_elefante.mp3; sourceTree = "<group>"; };
+		18D10FD81AEAD8EF005FF42A /* som_jungle_gorila.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_gorila.mp3; sourceTree = "<group>"; };
+		18D10FD91AEAD8EF005FF42A /* som_jungle_macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_macaco.mp3; sourceTree = "<group>"; };
+		18D10FDA1AEAD8EF005FF42A /* som_jungle_onca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_onca.mp3; sourceTree = "<group>"; };
+		18D10FDB1AEAD8EF005FF42A /* som_jungle_panda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_panda.mp3; sourceTree = "<group>"; };
+		18D10FDC1AEAD8EF005FF42A /* som_jungle_pantera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_pantera.mp3; sourceTree = "<group>"; };
+		18D10FDD1AEAD8EF005FF42A /* som_jungle_tigre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_tigre.mp3; sourceTree = "<group>"; };
+		18D10FDE1AEAD8EF005FF42A /* som_jungle_tucano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_jungle_tucano.mp3; sourceTree = "<group>"; };
 		35CF59571AEACC7C0044A8FB /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		35CF59581AEACC7C0044A8FB /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		35CF595A1AEACC890044A8FB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
@@ -248,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				18780B051AEA830A008F50C8 /* Farm */,
+				18D10FC01AEAD5D6005FF42A /* Jungle */,
 			);
 			path = "Animal Images";
 			sourceTree = "<group>";
@@ -272,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				18780B0C1AEA830A008F50C8 /* Farm */,
+				18D10FD51AEAD8EF005FF42A /* Jungle */,
 			);
 			path = "Animal Sounds";
 			sourceTree = "<group>";
@@ -323,6 +361,38 @@
 				18780B191AEA830A008F50C8 /* icon.png */,
 			);
 			path = Icon;
+			sourceTree = "<group>";
+		};
+		18D10FC01AEAD5D6005FF42A /* Jungle */ = {
+			isa = PBXGroup;
+			children = (
+				18D10FC11AEAD5D6005FF42A /* img_jungle_arara.png */,
+				18D10FC21AEAD5D6005FF42A /* img_jungle_elefante.png */,
+				18D10FC31AEAD5D6005FF42A /* img_jungle_gorila.png */,
+				18D10FC41AEAD5D6005FF42A /* img_jungle_macaco.png */,
+				18D10FC51AEAD5D6005FF42A /* img_jungle_onca.png */,
+				18D10FC71AEAD5D6005FF42A /* img_jungle_panda.png */,
+				18D10FC81AEAD5D6005FF42A /* img_jungle_pantera.png */,
+				18D10FC91AEAD5D6005FF42A /* img_jungle_tigre.png */,
+				18D10FCA1AEAD5D6005FF42A /* img_jungle_tucano.png */,
+			);
+			path = Jungle;
+			sourceTree = "<group>";
+		};
+		18D10FD51AEAD8EF005FF42A /* Jungle */ = {
+			isa = PBXGroup;
+			children = (
+				18D10FD61AEAD8EF005FF42A /* som_jungle_arara.mp3 */,
+				18D10FD71AEAD8EF005FF42A /* som_jungle_elefante.mp3 */,
+				18D10FD81AEAD8EF005FF42A /* som_jungle_gorila.mp3 */,
+				18D10FD91AEAD8EF005FF42A /* som_jungle_macaco.mp3 */,
+				18D10FDA1AEAD8EF005FF42A /* som_jungle_onca.mp3 */,
+				18D10FDB1AEAD8EF005FF42A /* som_jungle_panda.mp3 */,
+				18D10FDC1AEAD8EF005FF42A /* som_jungle_pantera.mp3 */,
+				18D10FDD1AEAD8EF005FF42A /* som_jungle_tigre.mp3 */,
+				18D10FDE1AEAD8EF005FF42A /* som_jungle_tucano.mp3 */,
+			);
+			path = Jungle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,29 +477,47 @@
 			files = (
 				18780B271AEA830A008F50C8 /* icon.png in Resources */,
 				18CA26441AEAC0500038EE24 /* som_farm_porco.mp3 in Resources */,
+				18D10FCB1AEAD5D6005FF42A /* img_jungle_arara.png in Resources */,
+				18D10FE11AEAD8EF005FF42A /* som_jungle_gorila.mp3 in Resources */,
+				18D10FE31AEAD8EF005FF42A /* som_jungle_onca.mp3 in Resources */,
+				18D10FE41AEAD8EF005FF42A /* som_jungle_panda.mp3 in Resources */,
 				18CA26451AEAC0500038EE24 /* som_farm_vaca.mp3 in Resources */,
 				18780B1E1AEA830A008F50C8 /* img_farm_vaca.png in Resources */,
+				18D10FCD1AEAD5D6005FF42A /* img_jungle_gorila.png in Resources */,
 				18CA26431AEAC0500038EE24 /* som_farm_pato.mp3 in Resources */,
 				18780B1A1AEA830A008F50C8 /* img_farm_burro.png in Resources */,
+				18D10FE61AEAD8EF005FF42A /* som_jungle_tigre.mp3 in Resources */,
 				18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */,
 				18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */,
+				18D10FE51AEAD8EF005FF42A /* som_jungle_pantera.mp3 in Resources */,
 				18780B261AEA830A008F50C8 /* novacor.png in Resources */,
+				18D10FDF1AEAD8EF005FF42A /* som_jungle_arara.mp3 in Resources */,
 				35CF59631AEACCD20044A8FB /* Storyboard.storyboard in Resources */,
 				35CF59611AEACCC00044A8FB /* Click.wav in Resources */,
+				18D10FD41AEAD5D6005FF42A /* img_jungle_tucano.png in Resources */,
 				180D10EB1AEA7CB400820236 /* Images.xcassets in Resources */,
 				18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */,
+				18D10FCF1AEAD5D6005FF42A /* img_jungle_onca.png in Resources */,
+				18D10FD31AEAD5D6005FF42A /* img_jungle_tigre.png in Resources */,
 				18780B251AEA830A008F50C8 /* farm-background.png in Resources */,
+				18D10FE01AEAD8EF005FF42A /* som_jungle_elefante.mp3 in Resources */,
 				180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */,
 				185285AD1AEAB9DA00661258 /* img_farm_pato.png in Resources */,
+				18D10FD21AEAD5D6005FF42A /* img_jungle_pantera.png in Resources */,
 				18CA263E1AEAC0500038EE24 /* som_farm_burro.mp3 in Resources */,
 				185285AB1AEAB9DA00661258 /* img_farm_galinha.png in Resources */,
 				185285AC1AEAB9DA00661258 /* img_farm_galo.png in Resources */,
 				18780B1B1AEA830A008F50C8 /* img_farm_cachorro.png in Resources */,
+				18D10FCE1AEAD5D6005FF42A /* img_jungle_macaco.png in Resources */,
 				18CA26421AEAC0500038EE24 /* som_farm_ovelha.mp3 in Resources */,
+				18D10FE71AEAD8EF005FF42A /* som_jungle_tucano.mp3 in Resources */,
 				185285AE1AEAB9DA00661258 /* img_farm_porco.png in Resources */,
 				18CA26401AEAC0500038EE24 /* som_farm_galinha.mp3 in Resources */,
 				18CA26411AEAC0500038EE24 /* som_farm_galo.mp3 in Resources */,
+				18D10FE21AEAD8EF005FF42A /* som_jungle_macaco.mp3 in Resources */,
+				18D10FD11AEAD5D6005FF42A /* img_jungle_panda.png in Resources */,
 				18CA263F1AEAC0500038EE24 /* som_farm_cachorro.mp3 in Resources */,
+				18D10FCC1AEAD5D6005FF42A /* img_jungle_elefante.png in Resources */,
 				35CF59651AEACFA50044A8FB /* som_farm_coelho.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +665,7 @@
 				INFOPLIST_FILE = Anquiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -588,6 +677,7 @@
 				INFOPLIST_FILE = Anquiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
