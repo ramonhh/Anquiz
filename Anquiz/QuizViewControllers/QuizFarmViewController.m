@@ -65,7 +65,7 @@
     highScore = [[[NSUserDefaults standardUserDefaults] objectForKey:@"HighScore"] integerValue];
     self.highScoreLabel.text = [NSString stringWithFormat:@"Highscore: %@", [NSNumber numberWithInteger:highScore]];
     
-    timeLapsed = 5;
+    timeLapsed = 60;
     
 }
 
