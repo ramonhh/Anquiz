@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D107E1AEA661900820236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D107D1AEA661900820236 /* main.m */; };
+		180D10811AEA661900820236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10801AEA661900820236 /* AppDelegate.m */; };
+		180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180D108A1AEA661A00820236 /* LaunchScreen.xib */; };
+		180D10981AEA661A00820236 /* AnquizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10971AEA661A00820236 /* AnquizTests.m */; };
+		180D10A21AEA666100820236 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D10A11AEA666100820236 /* Storyboard.storyboard */; };
+		180D10B01AEA709700820236 /* QuizFarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10AF1AEA709700820236 /* QuizFarmViewController.m */; };
+		180D10B31AEA756900820236 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B21AEA756900820236 /* SoundManager.m */; };
+		180D10B71AEA75A300820236 /* CIRSoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B61AEA75A300820236 /* CIRSoundImage.m */; };
+		180D10EB1AEA7CB400820236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D10EA1AEA7CB400820236 /* Images.xcassets */; };
+		18780B1A1AEA830A008F50C8 /* img_farm_burro.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B061AEA830A008F50C8 /* img_farm_burro.png */; };
+		18780B1B1AEA830A008F50C8 /* img_farm_cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B071AEA830A008F50C8 /* img_farm_cachorro.png */; };
+		18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B081AEA830A008F50C8 /* img_farm_coelho.png */; };
+		18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B091AEA830A008F50C8 /* img_farm_ovelha.png */; };
+		18780B1E1AEA830A008F50C8 /* img_farm_vaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0A1AEA830A008F50C8 /* img_farm_vaca.png */; };
+		18780B1F1AEA830A008F50C8 /* som_farm_burro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */; };
+		18780B201AEA830A008F50C8 /* som_farm_cachorro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */; };
+		18780B211AEA830A008F50C8 /* som_farm_coelho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */; };
+		18780B221AEA830A008F50C8 /* som_farm_ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */; };
+		18780B231AEA830A008F50C8 /* som_farm_vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */; };
+		18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B141AEA830A008F50C8 /* backgroundMusic.mp3 */; };
+		18780B251AEA830A008F50C8 /* farm-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B151AEA830A008F50C8 /* farm-background.png */; };
+		18780B261AEA830A008F50C8 /* novacor.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B171AEA830A008F50C8 /* novacor.png */; };
+		18780B271AEA830A008F50C8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B191AEA830A008F50C8 /* icon.png */; };
+		18780B2A1AEA8847008F50C8 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18780B291AEA8847008F50C8 /* MainMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180D10921AEA661A00820236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180D10701AEA661900820236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180D10771AEA661900820236;
+			remoteInfo = Anquiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180D10781AEA661900820236 /* Anquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D107C1AEA661900820236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D107D1AEA661900820236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180D107F1AEA661900820236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180D10801AEA661900820236 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180D108B1AEA661A00820236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		180D10911AEA661A00820236 /* AnquizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnquizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D10961AEA661A00820236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D10971AEA661A00820236 /* AnquizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnquizTests.m; sourceTree = "<group>"; };
+		180D10A11AEA666100820236 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		180D10AE1AEA709700820236 /* QuizFarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizFarmViewController.h; path = QuizViewControllers/QuizFarmViewController.h; sourceTree = "<group>"; };
+		180D10AF1AEA709700820236 /* QuizFarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizFarmViewController.m; path = QuizViewControllers/QuizFarmViewController.m; sourceTree = "<group>"; };
+		180D10B11AEA756900820236 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		180D10B21AEA756900820236 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		180D10B51AEA75A300820236 /* CIRSoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIRSoundImage.h; sourceTree = "<group>"; };
+		180D10B61AEA75A300820236 /* CIRSoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIRSoundImage.m; sourceTree = "<group>"; };
+		180D10EA1AEA7CB400820236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18780B061AEA830A008F50C8 /* img_farm_burro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_burro.png; sourceTree = "<group>"; };
+		18780B071AEA830A008F50C8 /* img_farm_cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_cachorro.png; sourceTree = "<group>"; };
+		18780B081AEA830A008F50C8 /* img_farm_coelho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_coelho.png; sourceTree = "<group>"; };
+		18780B091AEA830A008F50C8 /* img_farm_ovelha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_ovelha.png; sourceTree = "<group>"; };
+		18780B0A1AEA830A008F50C8 /* img_farm_vaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_vaca.png; sourceTree = "<group>"; };
+		18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_burro.mp3; sourceTree = "<group>"; };
+		18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_cachorro.mp3; sourceTree = "<group>"; };
+		18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_coelho.mp3; sourceTree = "<group>"; };
+		18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_ovelha.mp3; sourceTree = "<group>"; };
+		18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_vaca.mp3; sourceTree = "<group>"; };
+		18780B141AEA830A008F50C8 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		18780B151AEA830A008F50C8 /* farm-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "farm-background.png"; sourceTree = "<group>"; };
+		18780B171AEA830A008F50C8 /* novacor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novacor.png; sourceTree = "<group>"; };
+		18780B191AEA830A008F50C8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		18780B281AEA8847008F50C8 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		18780B291AEA8847008F50C8 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180D10751AEA661900820236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D108E1AEA661A00820236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180D106F1AEA661900820236 = {
+			isa = PBXGroup;
+			children = (
+				180D107A1AEA661900820236 /* Anquiz */,
+				180D10941AEA661A00820236 /* AnquizTests */,
+				180D10791AEA661900820236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180D10791AEA661900820236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180D10781AEA661900820236 /* Anquiz.app */,
+				180D10911AEA661A00820236 /* AnquizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180D107A1AEA661900820236 /* Anquiz */ = {
+			isa = PBXGroup;
+			children = (
+				180D10EA1AEA7CB400820236 /* Images.xcassets */,
+				180D10A91AEA6E2800820236 /* AppDelegate */,
+				180D10B81AEA75A800820236 /* Classes */,
+				180D10B41AEA756D00820236 /* SoundManager */,
+				180D10A81AEA6E1800820236 /* QuizControllers */,
+				180D10AD1AEA6ED800820236 /* Views */,
+				18780B031AEA830A008F50C8 /* Resources */,
+				180D107B1AEA661900820236 /* Supporting Files */,
+			);
+			path = Anquiz;
+			sourceTree = "<group>";
+		};
+		180D107B1AEA661900820236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180D107C1AEA661900820236 /* Info.plist */,
+				180D107D1AEA661900820236 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180D10941AEA661A00820236 /* AnquizTests */ = {
+			isa = PBXGroup;
+			children = (
+				180D10971AEA661A00820236 /* AnquizTests.m */,
+				180D10951AEA661A00820236 /* Supporting Files */,
+			);
+			path = AnquizTests;
+			sourceTree = "<group>";
+		};
+		180D10951AEA661A00820236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180D10961AEA661A00820236 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180D10A81AEA6E1800820236 /* QuizControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18780B281AEA8847008F50C8 /* MainMenuViewController.h */,
+				18780B291AEA8847008F50C8 /* MainMenuViewController.m */,
+				180D10AE1AEA709700820236 /* QuizFarmViewController.h */,
+				180D10AF1AEA709700820236 /* QuizFarmViewController.m */,
+			);
+			name = QuizControllers;
+			sourceTree = "<group>";
+		};
+		180D10A91AEA6E2800820236 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				180D107F1AEA661900820236 /* AppDelegate.h */,
+				180D10801AEA661900820236 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		180D10AD1AEA6ED800820236 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180D108A1AEA661A00820236 /* LaunchScreen.xib */,
+				180D10A11AEA666100820236 /* Storyboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		180D10B41AEA756D00820236 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				180D10B11AEA756900820236 /* SoundManager.h */,
+				180D10B21AEA756900820236 /* SoundManager.m */,
+			);
+			name = SoundManager;
+			sourceTree = "<group>";
+		};
+		180D10B81AEA75A800820236 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				180D10B51AEA75A300820236 /* CIRSoundImage.h */,
+				180D10B61AEA75A300820236 /* CIRSoundImage.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		18780B031AEA830A008F50C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18780B041AEA830A008F50C8 /* Animal Images */,
+				18780B0B1AEA830A008F50C8 /* Animal Sounds */,
+				18780B121AEA830A008F50C8 /* Background */,
+				18780B161AEA830A008F50C8 /* Buttons */,
+				18780B181AEA830A008F50C8 /* Icon */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18780B041AEA830A008F50C8 /* Animal Images */ = {
+			isa = PBXGroup;
+			children = (
+				18780B051AEA830A008F50C8 /* Farm */,
+			);
+			path = "Animal Images";
+			sourceTree = "<group>";
+		};
+		18780B051AEA830A008F50C8 /* Farm */ = {
+			isa = PBXGroup;
+			children = (
+				18780B061AEA830A008F50C8 /* img_farm_burro.png */,
+				18780B071AEA830A008F50C8 /* img_farm_cachorro.png */,
+				18780B081AEA830A008F50C8 /* img_farm_coelho.png */,
+				18780B091AEA830A008F50C8 /* img_farm_ovelha.png */,
+				18780B0A1AEA830A008F50C8 /* img_farm_vaca.png */,
+			);
+			path = Farm;
+			sourceTree = "<group>";
+		};
+		18780B0B1AEA830A008F50C8 /* Animal Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18780B0C1AEA830A008F50C8 /* Farm */,
+			);
+			path = "Animal Sounds";
+			sourceTree = "<group>";
+		};
+		18780B0C1AEA830A008F50C8 /* Farm */ = {
+			isa = PBXGroup;
+			children = (
+				18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */,
+				18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */,
+				18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */,
+				18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */,
+				18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */,
+			);
+			path = Farm;
+			sourceTree = "<group>";
+		};
+		18780B121AEA830A008F50C8 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				18780B131AEA830A008F50C8 /* Farm */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		18780B131AEA830A008F50C8 /* Farm */ = {
+			isa = PBXGroup;
+			children = (
+				18780B141AEA830A008F50C8 /* backgroundMusic.mp3 */,
+				18780B151AEA830A008F50C8 /* farm-background.png */,
+			);
+			path = Farm;
+			sourceTree = "<group>";
+		};
+		18780B161AEA830A008F50C8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				18780B171AEA830A008F50C8 /* novacor.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		18780B181AEA830A008F50C8 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				18780B191AEA830A008F50C8 /* icon.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180D10771AEA661900820236 /* Anquiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D109B1AEA661A00820236 /* Build configuration list for PBXNativeTarget "Anquiz" */;
+			buildPhases = (
+				180D10741AEA661900820236 /* Sources */,
+				180D10751AEA661900820236 /* Frameworks */,
+				180D10761AEA661900820236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anquiz;
+			productName = Anquiz;
+			productReference = 180D10781AEA661900820236 /* Anquiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180D10901AEA661A00820236 /* AnquizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D109E1AEA661A00820236 /* Build configuration list for PBXNativeTarget "AnquizTests" */;
+			buildPhases = (
+				180D108D1AEA661A00820236 /* Sources */,
+				180D108E1AEA661A00820236 /* Frameworks */,
+				180D108F1AEA661A00820236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180D10931AEA661A00820236 /* PBXTargetDependency */,
+			);
+			name = AnquizTests;
+			productName = AnquizTests;
+			productReference = 180D10911AEA661A00820236 /* AnquizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180D10701AEA661900820236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CIR;
+				TargetAttributes = {
+					180D10771AEA661900820236 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5EX2K3NNES;
+					};
+					180D10901AEA661A00820236 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 180D10771AEA661900820236;
+					};
+				};
+			};
+			buildConfigurationList = 180D10731AEA661900820236 /* Build configuration list for PBXProject "Anquiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180D106F1AEA661900820236;
+			productRefGroup = 180D10791AEA661900820236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180D10771AEA661900820236 /* Anquiz */,
+				180D10901AEA661A00820236 /* AnquizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180D10761AEA661900820236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18780B271AEA830A008F50C8 /* icon.png in Resources */,
+				18780B1E1AEA830A008F50C8 /* img_farm_vaca.png in Resources */,
+				18780B211AEA830A008F50C8 /* som_farm_coelho.mp3 in Resources */,
+				18780B231AEA830A008F50C8 /* som_farm_vaca.mp3 in Resources */,
+				18780B1A1AEA830A008F50C8 /* img_farm_burro.png in Resources */,
+				18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */,
+				18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */,
+				18780B261AEA830A008F50C8 /* novacor.png in Resources */,
+				180D10EB1AEA7CB400820236 /* Images.xcassets in Resources */,
+				180D10A21AEA666100820236 /* Storyboard.storyboard in Resources */,
+				18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */,
+				18780B251AEA830A008F50C8 /* farm-background.png in Resources */,
+				180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */,
+				18780B201AEA830A008F50C8 /* som_farm_cachorro.mp3 in Resources */,
+				18780B1B1AEA830A008F50C8 /* img_farm_cachorro.png in Resources */,
+				18780B1F1AEA830A008F50C8 /* som_farm_burro.mp3 in Resources */,
+				18780B221AEA830A008F50C8 /* som_farm_ovelha.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D108F1AEA661A00820236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180D10741AEA661900820236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D10B71AEA75A300820236 /* CIRSoundImage.m in Sources */,
+				180D10811AEA661900820236 /* AppDelegate.m in Sources */,
+				180D10B31AEA756900820236 /* SoundManager.m in Sources */,
+				180D10B01AEA709700820236 /* QuizFarmViewController.m in Sources */,
+				18780B2A1AEA8847008F50C8 /* MainMenuViewController.m in Sources */,
+				180D107E1AEA661900820236 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180D108D1AEA661A00820236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D10981AEA661A00820236 /* AnquizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180D10931AEA661A00820236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180D10771AEA661900820236 /* Anquiz */;
+			targetProxy = 180D10921AEA661A00820236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180D108A1AEA661A00820236 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D108B1AEA661A00820236 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180D10991AEA661A00820236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180D109A1AEA661A00820236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180D109C1AEA661A00820236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Anquiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180D109D1AEA661A00820236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Anquiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180D109F1AEA661A00820236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnquizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anquiz.app/Anquiz";
+			};
+			name = Debug;
+		};
+		180D10A01AEA661A00820236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnquizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anquiz.app/Anquiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180D10731AEA661900820236 /* Build configuration list for PBXProject "Anquiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D10991AEA661A00820236 /* Debug */,
+				180D109A1AEA661A00820236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D109B1AEA661A00820236 /* Build configuration list for PBXNativeTarget "Anquiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D109C1AEA661A00820236 /* Debug */,
+				180D109D1AEA661A00820236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D109E1AEA661A00820236 /* Build configuration list for PBXNativeTarget "AnquizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D109F1AEA661A00820236 /* Debug */,
+				180D10A01AEA661A00820236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180D10701AEA661900820236 /* Project object */;
+}
