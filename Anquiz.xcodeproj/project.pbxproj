@@ -16,16 +16,15 @@
 		180D10B31AEA756900820236 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B21AEA756900820236 /* SoundManager.m */; };
 		180D10B71AEA75A300820236 /* CIRSoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B61AEA75A300820236 /* CIRSoundImage.m */; };
 		180D10EB1AEA7CB400820236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D10EA1AEA7CB400820236 /* Images.xcassets */; };
+		185285AB1AEAB9DA00661258 /* img_farm_galinha.png in Resources */ = {isa = PBXBuildFile; fileRef = 185285A71AEAB9DA00661258 /* img_farm_galinha.png */; };
+		185285AC1AEAB9DA00661258 /* img_farm_galo.png in Resources */ = {isa = PBXBuildFile; fileRef = 185285A81AEAB9DA00661258 /* img_farm_galo.png */; };
+		185285AD1AEAB9DA00661258 /* img_farm_pato.png in Resources */ = {isa = PBXBuildFile; fileRef = 185285A91AEAB9DA00661258 /* img_farm_pato.png */; };
+		185285AE1AEAB9DA00661258 /* img_farm_porco.png in Resources */ = {isa = PBXBuildFile; fileRef = 185285AA1AEAB9DA00661258 /* img_farm_porco.png */; };
 		18780B1A1AEA830A008F50C8 /* img_farm_burro.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B061AEA830A008F50C8 /* img_farm_burro.png */; };
 		18780B1B1AEA830A008F50C8 /* img_farm_cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B071AEA830A008F50C8 /* img_farm_cachorro.png */; };
 		18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B081AEA830A008F50C8 /* img_farm_coelho.png */; };
 		18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B091AEA830A008F50C8 /* img_farm_ovelha.png */; };
 		18780B1E1AEA830A008F50C8 /* img_farm_vaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0A1AEA830A008F50C8 /* img_farm_vaca.png */; };
-		18780B1F1AEA830A008F50C8 /* som_farm_burro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */; };
-		18780B201AEA830A008F50C8 /* som_farm_cachorro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */; };
-		18780B211AEA830A008F50C8 /* som_farm_coelho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */; };
-		18780B221AEA830A008F50C8 /* som_farm_ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */; };
-		18780B231AEA830A008F50C8 /* som_farm_vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */; };
 		18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18780B141AEA830A008F50C8 /* backgroundMusic.mp3 */; };
 		18780B251AEA830A008F50C8 /* farm-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B151AEA830A008F50C8 /* farm-background.png */; };
 		18780B261AEA830A008F50C8 /* novacor.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B171AEA830A008F50C8 /* novacor.png */; };
@@ -61,16 +60,15 @@
 		180D10B51AEA75A300820236 /* CIRSoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIRSoundImage.h; sourceTree = "<group>"; };
 		180D10B61AEA75A300820236 /* CIRSoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIRSoundImage.m; sourceTree = "<group>"; };
 		180D10EA1AEA7CB400820236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185285A71AEAB9DA00661258 /* img_farm_galinha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_galinha.png; sourceTree = "<group>"; };
+		185285A81AEAB9DA00661258 /* img_farm_galo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_galo.png; sourceTree = "<group>"; };
+		185285A91AEAB9DA00661258 /* img_farm_pato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_pato.png; sourceTree = "<group>"; };
+		185285AA1AEAB9DA00661258 /* img_farm_porco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_porco.png; sourceTree = "<group>"; };
 		18780B061AEA830A008F50C8 /* img_farm_burro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_burro.png; sourceTree = "<group>"; };
 		18780B071AEA830A008F50C8 /* img_farm_cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_cachorro.png; sourceTree = "<group>"; };
 		18780B081AEA830A008F50C8 /* img_farm_coelho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_coelho.png; sourceTree = "<group>"; };
 		18780B091AEA830A008F50C8 /* img_farm_ovelha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_ovelha.png; sourceTree = "<group>"; };
 		18780B0A1AEA830A008F50C8 /* img_farm_vaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_farm_vaca.png; sourceTree = "<group>"; };
-		18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_burro.mp3; sourceTree = "<group>"; };
-		18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_cachorro.mp3; sourceTree = "<group>"; };
-		18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_coelho.mp3; sourceTree = "<group>"; };
-		18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_ovelha.mp3; sourceTree = "<group>"; };
-		18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_vaca.mp3; sourceTree = "<group>"; };
 		18780B141AEA830A008F50C8 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		18780B151AEA830A008F50C8 /* farm-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "farm-background.png"; sourceTree = "<group>"; };
 		18780B171AEA830A008F50C8 /* novacor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novacor.png; sourceTree = "<group>"; };
@@ -226,6 +224,10 @@
 		18780B051AEA830A008F50C8 /* Farm */ = {
 			isa = PBXGroup;
 			children = (
+				185285A71AEAB9DA00661258 /* img_farm_galinha.png */,
+				185285A81AEAB9DA00661258 /* img_farm_galo.png */,
+				185285A91AEAB9DA00661258 /* img_farm_pato.png */,
+				185285AA1AEAB9DA00661258 /* img_farm_porco.png */,
 				18780B061AEA830A008F50C8 /* img_farm_burro.png */,
 				18780B071AEA830A008F50C8 /* img_farm_cachorro.png */,
 				18780B081AEA830A008F50C8 /* img_farm_coelho.png */,
@@ -246,11 +248,6 @@
 		18780B0C1AEA830A008F50C8 /* Farm */ = {
 			isa = PBXGroup;
 			children = (
-				18780B0D1AEA830A008F50C8 /* som_farm_burro.mp3 */,
-				18780B0E1AEA830A008F50C8 /* som_farm_cachorro.mp3 */,
-				18780B0F1AEA830A008F50C8 /* som_farm_coelho.mp3 */,
-				18780B101AEA830A008F50C8 /* som_farm_ovelha.mp3 */,
-				18780B111AEA830A008F50C8 /* som_farm_vaca.mp3 */,
 			);
 			path = Farm;
 			sourceTree = "<group>";
@@ -371,8 +368,6 @@
 			files = (
 				18780B271AEA830A008F50C8 /* icon.png in Resources */,
 				18780B1E1AEA830A008F50C8 /* img_farm_vaca.png in Resources */,
-				18780B211AEA830A008F50C8 /* som_farm_coelho.mp3 in Resources */,
-				18780B231AEA830A008F50C8 /* som_farm_vaca.mp3 in Resources */,
 				18780B1A1AEA830A008F50C8 /* img_farm_burro.png in Resources */,
 				18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */,
 				18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */,
@@ -382,10 +377,11 @@
 				18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */,
 				18780B251AEA830A008F50C8 /* farm-background.png in Resources */,
 				180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */,
-				18780B201AEA830A008F50C8 /* som_farm_cachorro.mp3 in Resources */,
+				185285AD1AEAB9DA00661258 /* img_farm_pato.png in Resources */,
+				185285AB1AEAB9DA00661258 /* img_farm_galinha.png in Resources */,
+				185285AC1AEAB9DA00661258 /* img_farm_galo.png in Resources */,
 				18780B1B1AEA830A008F50C8 /* img_farm_cachorro.png in Resources */,
-				18780B1F1AEA830A008F50C8 /* som_farm_burro.mp3 in Resources */,
-				18780B221AEA830A008F50C8 /* som_farm_ovelha.mp3 in Resources */,
+				185285AE1AEAB9DA00661258 /* img_farm_porco.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
