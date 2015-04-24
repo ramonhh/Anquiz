@@ -11,7 +11,6 @@
 		180D10811AEA661900820236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10801AEA661900820236 /* AppDelegate.m */; };
 		180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180D108A1AEA661A00820236 /* LaunchScreen.xib */; };
 		180D10981AEA661A00820236 /* AnquizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10971AEA661A00820236 /* AnquizTests.m */; };
-		180D10A21AEA666100820236 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D10A11AEA666100820236 /* Storyboard.storyboard */; };
 		180D10B01AEA709700820236 /* QuizFarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10AF1AEA709700820236 /* QuizFarmViewController.m */; };
 		180D10B31AEA756900820236 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B21AEA756900820236 /* SoundManager.m */; };
 		180D10B71AEA75A300820236 /* CIRSoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D10B61AEA75A300820236 /* CIRSoundImage.m */; };
@@ -29,7 +28,6 @@
 		18780B251AEA830A008F50C8 /* farm-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B151AEA830A008F50C8 /* farm-background.png */; };
 		18780B261AEA830A008F50C8 /* novacor.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B171AEA830A008F50C8 /* novacor.png */; };
 		18780B271AEA830A008F50C8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18780B191AEA830A008F50C8 /* icon.png */; };
-		18780B2A1AEA8847008F50C8 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18780B291AEA8847008F50C8 /* MainMenuViewController.m */; };
 		18CA263E1AEAC0500038EE24 /* som_farm_burro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA26361AEAC0500038EE24 /* som_farm_burro.mp3 */; };
 		18CA263F1AEAC0500038EE24 /* som_farm_cachorro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA26371AEAC0500038EE24 /* som_farm_cachorro.mp3 */; };
 		18CA26401AEAC0500038EE24 /* som_farm_galinha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA26381AEAC0500038EE24 /* som_farm_galinha.mp3 */; };
@@ -38,6 +36,12 @@
 		18CA26431AEAC0500038EE24 /* som_farm_pato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263B1AEAC0500038EE24 /* som_farm_pato.mp3 */; };
 		18CA26441AEAC0500038EE24 /* som_farm_porco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263C1AEAC0500038EE24 /* som_farm_porco.mp3 */; };
 		18CA26451AEAC0500038EE24 /* som_farm_vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18CA263D1AEAC0500038EE24 /* som_farm_vaca.mp3 */; };
+		35CF59591AEACC7C0044A8FB /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF59581AEACC7C0044A8FB /* MainMenuViewController.m */; };
+		35CF595E1AEACC890044A8FB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF595B1AEACC890044A8FB /* AboutViewController.m */; };
+		35CF595F1AEACC890044A8FB /* JungleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CF595D1AEACC890044A8FB /* JungleViewController.m */; };
+		35CF59611AEACCC00044A8FB /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 35CF59601AEACCC00044A8FB /* Click.wav */; };
+		35CF59631AEACCD20044A8FB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CF59621AEACCD20044A8FB /* Storyboard.storyboard */; };
+		35CF59651AEACFA50044A8FB /* som_farm_coelho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35CF59641AEACFA50044A8FB /* som_farm_coelho.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,6 @@
 		180D10911AEA661A00820236 /* AnquizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnquizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180D10961AEA661A00820236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180D10971AEA661A00820236 /* AnquizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnquizTests.m; sourceTree = "<group>"; };
-		180D10A11AEA666100820236 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		180D10AE1AEA709700820236 /* QuizFarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizFarmViewController.h; path = QuizViewControllers/QuizFarmViewController.h; sourceTree = "<group>"; };
 		180D10AF1AEA709700820236 /* QuizFarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizFarmViewController.m; path = QuizViewControllers/QuizFarmViewController.m; sourceTree = "<group>"; };
 		180D10B11AEA756900820236 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
@@ -81,8 +84,6 @@
 		18780B151AEA830A008F50C8 /* farm-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "farm-background.png"; sourceTree = "<group>"; };
 		18780B171AEA830A008F50C8 /* novacor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = novacor.png; sourceTree = "<group>"; };
 		18780B191AEA830A008F50C8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		18780B281AEA8847008F50C8 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		18780B291AEA8847008F50C8 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		18CA26361AEAC0500038EE24 /* som_farm_burro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_burro.mp3; sourceTree = "<group>"; };
 		18CA26371AEAC0500038EE24 /* som_farm_cachorro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_cachorro.mp3; sourceTree = "<group>"; };
 		18CA26381AEAC0500038EE24 /* som_farm_galinha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_galinha.mp3; sourceTree = "<group>"; };
@@ -91,6 +92,15 @@
 		18CA263B1AEAC0500038EE24 /* som_farm_pato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_pato.mp3; sourceTree = "<group>"; };
 		18CA263C1AEAC0500038EE24 /* som_farm_porco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_porco.mp3; sourceTree = "<group>"; };
 		18CA263D1AEAC0500038EE24 /* som_farm_vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_vaca.mp3; sourceTree = "<group>"; };
+		35CF59571AEACC7C0044A8FB /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		35CF59581AEACC7C0044A8FB /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		35CF595A1AEACC890044A8FB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		35CF595B1AEACC890044A8FB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		35CF595C1AEACC890044A8FB /* JungleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JungleViewController.h; sourceTree = "<group>"; };
+		35CF595D1AEACC890044A8FB /* JungleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JungleViewController.m; sourceTree = "<group>"; };
+		35CF59601AEACCC00044A8FB /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		35CF59621AEACCD20044A8FB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		35CF59641AEACFA50044A8FB /* som_farm_coelho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = som_farm_coelho.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,10 +183,14 @@
 		180D10A81AEA6E1800820236 /* QuizControllers */ = {
 			isa = PBXGroup;
 			children = (
-				18780B281AEA8847008F50C8 /* MainMenuViewController.h */,
-				18780B291AEA8847008F50C8 /* MainMenuViewController.m */,
+				35CF59571AEACC7C0044A8FB /* MainMenuViewController.h */,
+				35CF59581AEACC7C0044A8FB /* MainMenuViewController.m */,
 				180D10AE1AEA709700820236 /* QuizFarmViewController.h */,
 				180D10AF1AEA709700820236 /* QuizFarmViewController.m */,
+				35CF595A1AEACC890044A8FB /* AboutViewController.h */,
+				35CF595B1AEACC890044A8FB /* AboutViewController.m */,
+				35CF595C1AEACC890044A8FB /* JungleViewController.h */,
+				35CF595D1AEACC890044A8FB /* JungleViewController.m */,
 			);
 			name = QuizControllers;
 			sourceTree = "<group>";
@@ -194,7 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				180D108A1AEA661A00820236 /* LaunchScreen.xib */,
-				180D10A11AEA666100820236 /* Storyboard.storyboard */,
+				35CF59621AEACCD20044A8FB /* Storyboard.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -202,6 +216,7 @@
 		180D10B41AEA756D00820236 /* SoundManager */ = {
 			isa = PBXGroup;
 			children = (
+				35CF59601AEACCC00044A8FB /* Click.wav */,
 				180D10B11AEA756900820236 /* SoundManager.h */,
 				180D10B21AEA756900820236 /* SoundManager.m */,
 			);
@@ -266,6 +281,7 @@
 			children = (
 				18CA26361AEAC0500038EE24 /* som_farm_burro.mp3 */,
 				18CA26371AEAC0500038EE24 /* som_farm_cachorro.mp3 */,
+				35CF59641AEACFA50044A8FB /* som_farm_coelho.mp3 */,
 				18CA26381AEAC0500038EE24 /* som_farm_galinha.mp3 */,
 				18CA26391AEAC0500038EE24 /* som_farm_galo.mp3 */,
 				18CA263A1AEAC0500038EE24 /* som_farm_ovelha.mp3 */,
@@ -398,8 +414,9 @@
 				18780B1C1AEA830A008F50C8 /* img_farm_coelho.png in Resources */,
 				18780B1D1AEA830A008F50C8 /* img_farm_ovelha.png in Resources */,
 				18780B261AEA830A008F50C8 /* novacor.png in Resources */,
+				35CF59631AEACCD20044A8FB /* Storyboard.storyboard in Resources */,
+				35CF59611AEACCC00044A8FB /* Click.wav in Resources */,
 				180D10EB1AEA7CB400820236 /* Images.xcassets in Resources */,
-				180D10A21AEA666100820236 /* Storyboard.storyboard in Resources */,
 				18780B241AEA830A008F50C8 /* backgroundMusic.mp3 in Resources */,
 				18780B251AEA830A008F50C8 /* farm-background.png in Resources */,
 				180D108C1AEA661A00820236 /* LaunchScreen.xib in Resources */,
@@ -413,6 +430,7 @@
 				18CA26401AEAC0500038EE24 /* som_farm_galinha.mp3 in Resources */,
 				18CA26411AEAC0500038EE24 /* som_farm_galo.mp3 in Resources */,
 				18CA263F1AEAC0500038EE24 /* som_farm_cachorro.mp3 in Resources */,
+				35CF59651AEACFA50044A8FB /* som_farm_coelho.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +451,10 @@
 				180D10B71AEA75A300820236 /* CIRSoundImage.m in Sources */,
 				180D10811AEA661900820236 /* AppDelegate.m in Sources */,
 				180D10B31AEA756900820236 /* SoundManager.m in Sources */,
+				35CF595E1AEACC890044A8FB /* AboutViewController.m in Sources */,
 				180D10B01AEA709700820236 /* QuizFarmViewController.m in Sources */,
-				18780B2A1AEA8847008F50C8 /* MainMenuViewController.m in Sources */,
+				35CF595F1AEACC890044A8FB /* JungleViewController.m in Sources */,
+				35CF59591AEACC7C0044A8FB /* MainMenuViewController.m in Sources */,
 				180D107E1AEA661900820236 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

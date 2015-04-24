@@ -25,7 +25,7 @@
     NSArray *onlyPNGs = [dirContents filteredArrayUsingPredicate:fltr];
     
     _images = onlyPNGs;
-//    NSLog(@"Imagens: %@", _images);
+    NSLog(@"Imagens: %@", _images);
 }
 
 - (void) loadSounds {
@@ -39,8 +39,8 @@
     NSArray *onlyMP3 = [dirContents filteredArrayUsingPredicate:fltr];
     
     _sounds = onlyMP3;
-//    NSLog(@"%@", predicate);
-//    NSLog(@"Sons: %@", _sounds);
+    NSLog(@"%@", predicate);
+    NSLog(@"Sons: %@", _sounds);
 }
 
 - (id) init {

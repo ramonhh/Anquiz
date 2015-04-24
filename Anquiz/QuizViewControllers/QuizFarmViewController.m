@@ -248,6 +248,15 @@
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
 
+- (IBAction)BackButton:(id)sender {
+    [[SoundManager sharedManager] playSound:@"Click.wav"];
+}
+
+- (IBAction)Play:(id)sender {
+    [[SoundManager sharedManager] playSound:@"Click.wav"];
+}
+
+
 - (void) greenToWhite {
     [UIView transitionWithView:self.view duration:0.3 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
         [self.scoreLabel setTextColor:[UIColor whiteColor]];
